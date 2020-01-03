@@ -12,6 +12,11 @@
 		673BC61923BF6BCA0083DB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC61723BF6BCA0083DB26 /* Main.storyboard */; };
 		673BC61B23BF6BCF0083DB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673BC61A23BF6BCF0083DB26 /* Assets.xcassets */; };
 		673BC61E23BF6BD00083DB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC61C23BF6BCF0083DB26 /* LaunchScreen.storyboard */; };
+		673BC62C23BF6C520083DB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC62B23BF6C520083DB26 /* AppDelegate.swift */; };
+		673BC62E23BF6C520083DB26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC62D23BF6C520083DB26 /* ViewController.swift */; };
+		673BC63123BF6C520083DB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC62F23BF6C520083DB26 /* Main.storyboard */; };
+		673BC63623BF6C540083DB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC63423BF6C540083DB26 /* LaunchScreen.storyboard */; };
+		673BC63C23BF6CDA0083DB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673BC61A23BF6BCF0083DB26 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		673BC61A23BF6BCF0083DB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		673BC61D23BF6BCF0083DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		673BC61F23BF6BD00083DB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673BC62923BF6C520083DB26 /* GoGo Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoGo Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		673BC62B23BF6C520083DB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		673BC62D23BF6C520083DB26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		673BC63023BF6C520083DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		673BC63523BF6C540083DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		673BC63723BF6C540083DB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		673BC60D23BF6BCA0083DB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673BC62623BF6C520083DB26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +56,9 @@
 		673BC60723BF6BC90083DB26 = {
 			isa = PBXGroup;
 			children = (
+				673BC63B23BF6CAF0083DB26 /* Shared */,
 				673BC61223BF6BCA0083DB26 /* GoGo */,
+				673BC62A23BF6C520083DB26 /* GoGo Admin */,
 				673BC61123BF6BCA0083DB26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				673BC61023BF6BCA0083DB26 /* GoGo.app */,
+				673BC62923BF6C520083DB26 /* GoGo Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +78,30 @@
 				673BC61323BF6BCA0083DB26 /* AppDelegate.swift */,
 				673BC61523BF6BCA0083DB26 /* ViewController.swift */,
 				673BC61723BF6BCA0083DB26 /* Main.storyboard */,
-				673BC61A23BF6BCF0083DB26 /* Assets.xcassets */,
 				673BC61C23BF6BCF0083DB26 /* LaunchScreen.storyboard */,
 				673BC61F23BF6BD00083DB26 /* Info.plist */,
 			);
 			path = GoGo;
+			sourceTree = "<group>";
+		};
+		673BC62A23BF6C520083DB26 /* GoGo Admin */ = {
+			isa = PBXGroup;
+			children = (
+				673BC62B23BF6C520083DB26 /* AppDelegate.swift */,
+				673BC62D23BF6C520083DB26 /* ViewController.swift */,
+				673BC62F23BF6C520083DB26 /* Main.storyboard */,
+				673BC63423BF6C540083DB26 /* LaunchScreen.storyboard */,
+				673BC63723BF6C540083DB26 /* Info.plist */,
+			);
+			path = "GoGo Admin";
+			sourceTree = "<group>";
+		};
+		673BC63B23BF6CAF0083DB26 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				673BC61A23BF6BCF0083DB26 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = 673BC61023BF6BCA0083DB26 /* GoGo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		673BC62823BF6C520083DB26 /* GoGo Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673BC63823BF6C540083DB26 /* Build configuration list for PBXNativeTarget "GoGo Admin" */;
+			buildPhases = (
+				673BC62523BF6C520083DB26 /* Sources */,
+				673BC62623BF6C520083DB26 /* Frameworks */,
+				673BC62723BF6C520083DB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoGo Admin";
+			productName = "GoGo Admin";
+			productReference = 673BC62923BF6C520083DB26 /* GoGo Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = Omar;
 				TargetAttributes = {
 					673BC60F23BF6BCA0083DB26 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					673BC62823BF6C520083DB26 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				673BC60F23BF6BCA0083DB26 /* GoGo */,
+				673BC62823BF6C520083DB26 /* GoGo Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		673BC62723BF6C520083DB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673BC63623BF6C540083DB26 /* LaunchScreen.storyboard in Resources */,
+				673BC63C23BF6CDA0083DB26 /* Assets.xcassets in Resources */,
+				673BC63123BF6C520083DB26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				673BC61623BF6BCA0083DB26 /* ViewController.swift in Sources */,
 				673BC61423BF6BCA0083DB26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673BC62523BF6C520083DB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673BC62E23BF6C520083DB26 /* ViewController.swift in Sources */,
+				673BC62C23BF6C520083DB26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				673BC61D23BF6BCF0083DB26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		673BC62F23BF6C520083DB26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673BC63023BF6C520083DB26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		673BC63423BF6C540083DB26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673BC63523BF6C540083DB26 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +410,42 @@
 			};
 			name = Release;
 		};
+		673BC63923BF6C540083DB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				INFOPLIST_FILE = "GoGo Admin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charapp.GoGo-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		673BC63A23BF6C540083DB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				INFOPLIST_FILE = "GoGo Admin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charapp.GoGo-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +463,15 @@
 			buildConfigurations = (
 				673BC62323BF6BD00083DB26 /* Debug */,
 				673BC62423BF6BD00083DB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673BC63823BF6C540083DB26 /* Build configuration list for PBXNativeTarget "GoGo Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673BC63923BF6C540083DB26 /* Debug */,
+				673BC63A23BF6C540083DB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
