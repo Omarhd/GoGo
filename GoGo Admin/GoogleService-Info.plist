@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>513869519371-99i5lts167jf19503kv4c6v7ls089nma.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.513869519371-99i5lts167jf19503kv4c6v7ls089nma</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAun2nrJJ0pftCiv_oxiqaDAKPJnVdWx-0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>513869519371</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.charapp.GoGo-Admin</string>
+	<key>PROJECT_ID</key>
+	<string>gogo-3a466</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gogo-3a466.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:513869519371:ios:6cb89fd63f660aab5ac50e</string>
+	<key>DATABASE_URL</key>
+	<string>https://gogo-3a466.firebaseio.com</string>
+</dict>
+</plist>
