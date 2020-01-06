@@ -48,14 +48,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdz-nC-oPA">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdz-nC-oPA" customClass="RoundedButton" customModule="GoGo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="166" width="374" height="32"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                         <state key="normal" title="Forgot password?">
                                             <color key="titleColor" red="0.83529411760000005" green="0.3921568627" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYJ-g8-Xnf">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYJ-g8-Xnf" customClass="RoundedButton" customModule="GoGo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="218" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.2274509804" green="0.2666666667" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -66,7 +66,7 @@
                                             <color key="titleColor" red="0.95294117649999999" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih2-l3-BKk">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih2-l3-BKk" customClass="RoundedButton" customModule="GoGo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="278" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.83529411760000005" green="0.3921568627" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -80,7 +80,7 @@
                                             <segue destination="gKa-EZ-fAh" kind="show" id="Kid-ch-x6g"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0w-11-LBR">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0w-11-LBR" customClass="RoundedButton" customModule="GoGo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="338" width="374" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -118,10 +118,10 @@
             </objects>
             <point key="canvasLocation" x="997.10144927536237" y="109.82142857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--RegisterVC-->
         <scene sceneID="CQU-08-xwv">
             <objects>
-                <viewController id="gKa-EZ-fAh" sceneMemberID="viewController">
+                <viewController id="gKa-EZ-fAh" customClass="RegisterVC" customModule="GoGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PBZ-Cd-Udp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,7 +174,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pe-w1-DYg">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pe-w1-DYg" customClass="RoundedButton" customModule="GoGo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="286" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.2274509804" green="0.2666666667" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -184,6 +184,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerClicked:" destination="gKa-EZ-fAh" eventType="touchUpInside" id="pvs-oQ-6S5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -191,14 +194,14 @@
                                 <rect key="frame" x="188.5" y="444" width="37" height="37"/>
                                 <color key="color" red="0.2274509804" green="0.2666666667" blue="0.51928174520000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </activityIndicatorView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="lZX-fN-cfP">
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="lZX-fN-cfP">
                                 <rect key="frame" x="369" y="284" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="22s-tN-krK"/>
                                     <constraint firstAttribute="width" constant="20" id="Zf6-GS-Olh"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="HcW-MS-RxI">
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="HcW-MS-RxI">
                                 <rect key="frame" x="369" y="344" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="jes-Ot-WLa"/>
@@ -224,6 +227,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZVC-sS-T9O"/>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="IDx-hW-rLR" id="3IC-56-Mwn"/>
+                        <outlet property="confirmPassCheckImg" destination="HcW-MS-RxI" id="TYz-46-ZVf"/>
+                        <outlet property="confirmPasswordTxt" destination="Cxa-TG-G3h" id="Xri-aA-ckJ"/>
+                        <outlet property="emailTxt" destination="2J5-HX-bB3" id="4v5-bz-gGa"/>
+                        <outlet property="passCheckImg" destination="lZX-fN-cfP" id="hJz-FO-x0g"/>
+                        <outlet property="passwordTxt" destination="DgQ-f7-SAx" id="ala-dg-V69"/>
+                        <outlet property="usernameTxt" destination="qAc-pP-Gj5" id="4v1-my-QgK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijV-m6-EQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
